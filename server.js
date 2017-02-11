@@ -40,7 +40,6 @@ var articles={
                         This is my third article.
                     </p>`    
 }
-            
 };
 
 function createTemplate(data){
