@@ -31,7 +31,7 @@ var articles ={
                         This is my second article.
                     </p>` 
 },
-'article-tree':{
+'article-three':{
  title:'Article three | md didar',
     heading:'Article three',
     date:'Feb12,2017',
