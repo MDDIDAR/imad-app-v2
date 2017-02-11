@@ -10,7 +10,8 @@ var content={
     title:'Article One | md didar',
     heading:'Article One',
     date:'Feb10,2017',
-    content:`<p>
+    content:`
+                    <p>
                         This is my first webapp.This is my first webapp.This is my first webapp.This is my first webapp.This is my first webapp.This is my first webapp.
                     </p>
                     <p>
@@ -21,17 +22,19 @@ var content={
                     </p>`
             
 };
+
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
     
-var htmlTemplate= `<html>
+var htmlTemplate= `
+<html>
     <head>
         <title>
             ${title}
-            </title>
+        </title>
             <meta name="viewpoint" content="width=device-width,initial-scale=1"/>
             <link href="/ui/style.css" rel="stylesheet" />
     </head>
