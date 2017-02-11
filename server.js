@@ -28,7 +28,7 @@ var articles ={
     date:'Feb11,2017',
     content:`
                     <p>
-                        This isthe content of my second article.
+                        This is the content of my second article.
                     </p>` 
 },
 'article-three':{
