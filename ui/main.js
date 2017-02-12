@@ -23,6 +23,8 @@ button.onclick=function(){
     request.send(null);
 };
 //submsubmit-btn
+var nameInput=document.getElementById('name');
+var name=nameInput.value;
 var submit=document.getElementById('submit-btn');
 submit.onclick=function(){
     //create a request object
