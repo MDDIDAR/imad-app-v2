@@ -22,14 +22,18 @@ button.onclick=function(){
     request.open('GET','http://mddidar.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+
+
 //submsubmit-btn
 var submit=document.getElementById('submit-btn');
 submit.onclick=function(){
     //create a request object
 var request=new XMLHttpRequest();
+
 //capture the response and store it in a variable
 request.onreadystatechange = function () {
         if(request.readyState === XMLHttpRequest.DONE){
+
              //take the action
             if(request.status===200){
                 var names=request.responseText;
