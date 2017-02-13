@@ -25,10 +25,12 @@ button.onclick=function(){
 
 
 //submsubmit-btn
+
 var submit=document.getElementById('submit-btn');
    submit.onclick=function(){
     //create a request object
-var request=new XMLHttpRequest();
+
+    var request=new XMLHttpRequest();
 
 //capture the response and store it in a variable
 request.onreadystatechange = function () {
@@ -54,4 +56,5 @@ request.onreadystatechange = function () {
     var name=nameinput.value;
     request.open('GET','http://mddidar.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
-};
+
+    };
