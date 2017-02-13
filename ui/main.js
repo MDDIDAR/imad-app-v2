@@ -44,7 +44,7 @@ request.onreadystatechange = function () {
                 }
             
                 var ul=document.getElementById('namelist');
-                ul.innerHTML=list;
+                ul.innerHTML=list; 
             }
         }
     //not yet done
@@ -52,6 +52,6 @@ request.onreadystatechange = function () {
     //make the request
     var nameinput=document.getElementById('name');
     var name=nameinput.value;
-    request.open('GET','http://mddidar.imad.hasura-app.io/submit-name?name=' +name,true);
+    request.open('GET','http://mddidar.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
 };
