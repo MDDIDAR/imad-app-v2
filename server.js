@@ -36,6 +36,15 @@ var articles ={
                     <p>
                         This is the content of my third article.
                     </p>`    
+},
+'article-three':{
+ title:'Article four | md didar',
+    heading:'Article four',
+    date:'Feb22,2017',
+    content:`
+                    <p>
+                        This is the content of my fourth article.
+                    </p>`    
 }
 };
 
