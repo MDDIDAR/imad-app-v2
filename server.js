@@ -26,8 +26,11 @@ var articles ={
     content:`
                     <p>
                         This is the content of my second article.
-                    </p>` 
-},
+                    </p>`
+             
+    
+}, 
+
 'article-three':{
  title:'Article three | md didar',
     heading:'Article three',
