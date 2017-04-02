@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
 var articles ={ 
-'article-one':{
-    title:'Article One | md didar',
-    heading:'Article One',
+'vission':{
+    title:'vission | md didar',
+    heading:'vission',
     date:'Feb10,2017',
     content:`
                     <form action='' method='get'>  <input type='hidden' name='L' value='7' />  <input type='submit' value='Toggle Red' /> </form>
@@ -69,7 +69,7 @@ var htmlTemplate= `
     <body>
         <div class="container">
         <div>
-            <o href="/">Home</o>
+            <a href="/">Home</a>
             </div>
             <hr/>
             <h3>
