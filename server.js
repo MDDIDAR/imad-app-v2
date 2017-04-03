@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
 var articles ={ 
-'vission':{
-    title:'vission | md didar',
-    heading:'vission',
+'Vision':{
+    title:'Vision | md didar',
+    heading:'Vision',
     date:'Feb10,2017',
     content:`
                     <form action='' method='get'>  <input type='hidden' name='L' value='7' />  <input type='submit' value='Toggle Red' /> </form>
