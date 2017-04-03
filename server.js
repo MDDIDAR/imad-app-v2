@@ -31,9 +31,9 @@ var articles ={
     
 }, 
 
-'article-three':{
- title:'Article three | md didar',
-    heading:'Article three',
+'Goal':{
+ title:'Goal | md didar',
+    heading:'Goal',
     date:'Feb12,2017',
     content:`
                     <p>
