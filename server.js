@@ -12,11 +12,9 @@ var articles ={
     heading:'Vision',
     date:'Feb10,2017',
     content:`
-                    <form action='' method='get'>  <input type='hidden' name='L' value='7' />  <input type='submit' value='Toggle Red' /> </form>
-<form action='' method='get'>  <input type='hidden' name='L' value='6' />  <input type='submit' value='Toggle Green' /> </form>
-<form action='' method='get'>
- <input type='hidden' name='L' value='5' />  <input type='submit' value='Toggle Blue' /> </form>
-<form action='' method='get'>  <input type='range' name='S' min='0' max='1000' step='100' value='0'/>  <input type='submit' value='Set Frequency' /> </form>`
+              <p>
+              to make the Institute a centre of Excellence in the field of Engineering and Technical Education.
+                </p> `
 
 },
 'Mission':{
@@ -25,7 +23,9 @@ var articles ={
     date:'Feb11,2017',
     content:`
                     <p>
-                        This is the content of my second article.
+                        To impart quality and value based education to raise satisfaction level of all stake-holders.
+                        To create competent, creative professionals, and great entrepreneurs who can work as individual or in group in multi-cultural global environments.
+                        To prepare citizens who would grow to be competent enough to contribute significantly with personal integrity and civic responsibility for the betterment of mankind throughout their careers and profession.
                     </p>`
              
     
@@ -37,7 +37,7 @@ var articles ={
     date:'Feb12,2017',
     content:`
                     <p>
-                        This is the content of my third article.
+                       Impact education to students belonging to different strata of society irrespective of caste,gender,colour or creed.
                     </p>`    
 },
 'article-four':{
