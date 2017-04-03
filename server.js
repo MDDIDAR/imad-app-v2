@@ -13,7 +13,7 @@ var articles ={
     date:'Feb10,2017',
     content:`
               <p>
-              to make the Institute a centre of Excellence in the field of Engineering and Technical Education.
+              To make the Institute a centre of Excellence in the field of Engineering and Technical Education.
                 </p> `
 
 },
