@@ -19,9 +19,9 @@ var articles ={
 <form action='' method='get'>  <input type='range' name='S' min='0' max='1000' step='100' value='0'/>  <input type='submit' value='Set Frequency' /> </form>`
 
 },
-'article-two':{
-   title:'Article two | md didar',
-    heading:'Article two',
+'Mission':{
+   title:'Mission | md didar',
+    heading:'Mission',
     date:'Feb11,2017',
     content:`
                     <p>
