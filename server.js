@@ -21,9 +21,8 @@ var articles ={
     heading:'Vision',
     date:'Feb10,2017',
     content:`
-              <p>
-              To make the Institute a centre of Excellence in the field of Engineering and Technical Education.
-                </p> `
+             <p>jsah
+             </p> `
 
 },
 'Mission':{
