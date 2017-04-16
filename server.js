@@ -14,52 +14,6 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-
-var articles ={ 
-'Vision':{
-    title:'Vision | md didar',
-    heading:'Vision',
-    date:'Feb10,2017',
-    content:`
-             <p>
-             jsah
-             </p> `
-
-},
-'Mission':{
-   title:'Mission | md didar',
-    heading:'Mission',
-    date:'Feb11,2017',
-    content:`
-                    <p>
-                        To impart quality and value based education to raise satisfaction level of all stake-holders.
-                        To create competent, creative professionals, and great entrepreneurs who can work as individual or in group in multi-cultural global environments.
-                        To prepare citizens who would grow to be competent enough to contribute significantly with personal integrity and civic responsibility for the betterment of mankind throughout their careers and profession.
-                    </p>`
-             
-    
-}, 
-
-'Goal':{
- title:'Goal | md didar',
-    heading:'Goal',
-    date:'Feb12,2017',
-    content:`
-                    <p>
-                       Impact education to students belonging to different strata of society irrespective of caste,gender,colour or creed.
-                    </p>`    
-},
-'article-four':{
- title:'Article four | md didar',
-    heading:'Article four',
-    date:'Feb22,2017',
-    content:`
-                    <p>
-                        This is the content of my fourth article.
-                    </p>`    
-}
-};
-
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
