@@ -39,9 +39,6 @@ var htmlTemplate= `
                 ${heading}
                 </h3>
                 <div>
-                    ${date}
-                </div>
-                <div>
                     ${content}
                 </div>
                     </div>
