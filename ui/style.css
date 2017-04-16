@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
     margin-top: 10px;
+    padding-left: 05px;
+    padding-right: 05px;
 }
 
 .center {
