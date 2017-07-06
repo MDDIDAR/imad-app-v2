@@ -1,46 +1,85 @@
 <!doctype html>
 <html>
-    <head>
-  <link href="/ui/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-   <body bgcolor="#E6E6FA">
-     <div class="container">
+  <head>
+     <meta charset="utf-8">
+      <link href="/ui/style.css" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+  </head>
+   <body>
+       <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+            <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
         <div class="center">
             <img id='madi' src="http://hithaldia.in/main/wp-content/uploads/2014/11/Banner_Hit.png" class="img-medium"/>
         </div>
-         <h2>Department: Applied electronic and instrumentation engineering</h2>
-        <ul class="nav nav-tabs" role="tablist">
-       <li class="active"><a href="http://mddidar.imad.hasura-app.io/">Home</a></li>
-    <li><a href="http://mddidar.imad.hasura-app.io/articles/Faculty">Faculty</a></li>
-      <li><a href="http://mddidar.imad.hasura-app.io/articles/Mission">Facilities</a></li>
-      <li><a href="http://mddidar.imad.hasura-app.io/articles/Goal">Alumni</a></li>  
-        <li><a href="http://mddidar.imad.hasura-app.io/articles/Student Corner">Student Corner</a></li>  
-         <li><a href="http://mddidar.imad.hasura-app.io/articles/Photo Gallery">Photo Gallery</a></li>  
-         <li><a href="http://mddidar.imad.hasura-app.io/articles/Photo Gallery">Downloads</a></li>  
+           <h2>Department: Applied electronic and instrumentation engineering</h2>
+         <ul class="nav navbar-nav">
+          <li class="active"><a href="http://mddidar.imad.hasura-app.io/">Home</a></li>
+            <li><a href="http://mddidar.imad.hasura-app.io/articles/Faculty">Faculty</a></li>
+             <li><a href="http://mddidar.imad.hasura-app.io/articles/Mission">Facilities</a></li>
+             <li><a href="http://mddidar.imad.hasura-app.io/articles/Goal">Alumni</a></li>  
+             <li><a href="http://mddidar.imad.hasura-app.io/articles/Student Corner">Student Corner</a></li>  
+              <li><a href="http://mddidar.imad.hasura-app.io/articles/Photo Gallery">Photo Gallery</a></li>  
+             <li><a href="http://mddidar.imad.hasura-app.io/articles/Photo Gallery">Downloads</a></li>  
         </ul>
-        <h3>OVERVIEW</h3>
-        <div>
-            <ul>
-         <li> The department of Instrumentation Engineering was established in 1996, with the objectives like providing education and training facilities,to carry out application oriented research, to develop the students as per the industry requirement.</li>
-         <li>To impart quality and value based education to raise satisfaction level of all stake-holders.</li>
-         <li>To create competent, creative professionals, and great entrepreneurs who can work as individual or in group in multi-cultural global environments.</li>
-         <li>To prepare citizens who would grow to be competent enough to contribute significantly with personal integrity and civic responsibility for the betterment of mankind throughout their careers and profession.</li>
-         <li>The department enjoys long standing relationships with industry, academia, and research organizations of national importance to pursue teaching, training and research agenda. The industry / research organization members that play active participation in departmental activities are IOCL, Haldia, Haldia Petrochemical Ltd., Tata Chemicals, Exide, Tata Power, etc.</li>
-         <h4>PROGRAMS</h4>
-         <li>Under graduate program:</li>
-         <li>B. Tech in Applied Electronics and Instrumentation Engineering Under West Bengal University of Technology (4 years)</li>
-            </ul>   
-        </div>
-        
-        <hr/>
-         <div class="container">
-        <div class="center">
-        </div>
-        </div>
+             <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+    <div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
         <script>
              alert('Hi,I\'m md didar.');
         </script>
